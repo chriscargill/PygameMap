@@ -328,17 +328,10 @@ def login_set_screen():
 
 
 def login():
-    print("Logging In")
-    username = "WarKing"
+    print("Logging In") # Still need to implement a logging in functionality here
+    username = "bestUserEver"
     functions_loop_remove(login)
     return username
-    # username = input("Username?")
-    # password = input("password?")
-    # if username == "WarKing" and password == "123":
-    #     functions_loop_remove(login)
-    #     return username
-    # else:
-    #     login()
 
 
 
